@@ -66,23 +66,26 @@ The simulation displays:
 
 ##CODE AND SAMPLE OUPUT (REFERENCE)
 ## 💻 Python Code
-[Click here to view Python Code](code/main_code.py)
+## Python Code
 
-## 📸 Sample Output
-[Click here to view Output Screenshot](code/sample_output.png)
+[Open Python Code](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/code/main_code.py)
 
+## Sample Output
+
+[Open Output Screenshot](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/code/sample_output.png)
 
 ## 🎥 3D Demonstration
 
 The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
-[Click here to open 3D Demo](FINALDEMO.html)
+
+[Open 3D Demo](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/FINALDEMO.html)
 
 
 ## 📚 Documentation
-[Project Documentation](project-documentation.md)
 
-[System Architecture](system-architecture.md)
+[Project Documentation](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/project-documentation.md)
 
+[System Architecture](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/system-architecture.md)
 ## 🏭 Applications
 
 - Firecracker manufacturing units
