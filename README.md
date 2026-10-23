@@ -65,15 +65,23 @@ The simulation displays:
 - System completion status
 
 ##CODE AND SAMPLE OUPUT (REFERENCE)
-code/main_code.py
-output.png
+## 💻 Python Code
+[Click here to view Python Code](code/main_code.py)
 
-> Note: The Python program uses predefined demonstration values. It does not read real sensors or control physical safety equipment.
+## 📸 Sample Output
+[Click here to view Output Screenshot](code/sample_output.png)
+
 
 ## 🎥 3D Demonstration
 
 The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
-FINALDEMO.html
+[Click here to open 3D Demo](FINALDEMO.html)
+
+
+## 📚 Documentation
+[Project Documentation](project-documentation.md)
+
+[System Architecture](system-architecture.md)
 
 ## 🏭 Applications
 
