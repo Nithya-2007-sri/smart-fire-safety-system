@@ -79,7 +79,7 @@ The simulation displays:
 
 The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
 
-[Open 3D Demo](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/FINALDEMO.html)
+[Click here to open the 3D Demo](https://nithya-2007-sri.github.io/smart-fire-safety-system/FINSALDEMO.html)
 
 
 ## 📚 Documentation
