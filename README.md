@@ -70,9 +70,10 @@ The simulation displays:
 
 [Open Python Code](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/code/main_code.py)
 
-## Sample Output
 
-[Open Output Screenshot](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/code/sample_output.png)
+## 📸 Sample Output
+
+[Click here to open output image](https://github.com/Nithya-2007-sri/smart-fire-safety-system/blob/main/code/output.png)
 
 ## 🎥 3D Demonstration
 
