@@ -196,9 +196,9 @@ The simulation displays:
 - Proposed emergency responses
 - System completion status
 
-**Python source code:** [`code/main_code.py`](code/main_code.py)
-
-**Sample output:** [`code/sample_output.png`](code/sample_output.png)
+##CODE AND SAMPLE OUPUT (REFERENCE)
+code/main_code.py
+output.png
 
 > Note: The Python program uses predefined demonstration values. It does not read real sensors or control physical safety equipment.
 
@@ -206,7 +206,6 @@ The simulation displays:
 
 The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
 
-**Demo file:** Add the actual uploaded video filename or link here once available.
 
 ## 🏭 Applications
 
