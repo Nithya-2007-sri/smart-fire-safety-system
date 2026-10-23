@@ -76,7 +76,7 @@ The proposed Smart Fire-Safety System aims to integrate ignition prevention, mul
 
 ## 10. Project Status
 
-**Status:** Proposed Design
+**Status:** Proposed Design and 3D demo video.
 
 **Domain:** Electronics and Communication Engineering
 
