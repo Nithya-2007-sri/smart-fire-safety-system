@@ -2,85 +2,346 @@
 
 ## 📌 Project Overview
 
-The **Smart Fire-Safety System for Firecracker Manufacturing Units** is a proposed engineering safety concept designed to improve fire prevention, early detection, emergency response, and worker evacuation in high-risk pyrotechnic environments.
+The **Smart Fire-Safety System for Firecracker Manufacturing Units** is a proposed safety solution designed to improve fire prevention, early detection, and emergency response in firecracker manufacturing environments.
 
-The system combines electrostatic discharge (ESD) prevention, multi-sensor fire detection, microcontroller-based monitoring, event verification, automatic electrical isolation, emergency alarms, and guided evacuation.
+The system combines static electricity prevention, multi-sensor fire detection, microcontroller-based event verification, simulated electrical isolation, emergency alarms, emergency door release, and LED-guided evacuation.
 
-A localized inert-gas suppression concept is also considered as an additional safety layer, subject to professional engineering assessment and safety validation.
+A 3D demonstration illustrates the proposed system workflow and how its safety features are intended to operate.
+
+## 🎯 Problem Statement
+
+Firecracker manufacturing units handle combustible chemicals and materials that may create fire and explosion hazards. Static electricity, excessive temperature, smoke, and accidental ignition can increase the risk of serious accidents.
+
+Conventional safety measures may not provide sufficient early detection and coordinated emergency response. Therefore, a more integrated safety architecture is proposed to support early warning, hazard verification, and safe evacuation.
 
 ## 🎯 Objectives
 
-- Reduce electrostatic ignition risks through ESD prevention measures.
-- Detect potential fire incidents using multiple sensors.
-- Verify abnormal conditions using sensor-fusion logic.
-- Trigger proposed electrical isolation and emergency alarms.
-- Support worker evacuation through emergency exits, voice alerts, and LED-guided routes.
-- Explore additional suppression methods under certified safety procedures.
+- Reduce static electricity risks through appropriate ESD prevention measures.
+- Detect potential fire conditions using multiple sensors.
+- Verify warning conditions using a microcontroller-based system.
+- Simulate electrical isolation during a verified fire alert.
+- Provide emergency alarms and evacuation guidance.
+- Support emergency door release as part of the proposed response.
+- Demonstrate the system using Python simulation and a 3D model.
 
-## ⚙️ Key Features
+## ⚙️ Proposed System Components
 
-- **ESD Prevention:** ESD mats and grounding verification.
-- **Multi-Sensor Detection:** Flame, smoke, and temperature monitoring.
-- **Event Verification:** Microcontroller-based signal processing.
-- **Emergency Isolation:** Proposed automatic electrical shutdown.
-- **Worker Evacuation:** Emergency door release, Tamil voice alerts, and LED route guidance.
-- **Suppression Concept:** Proposed nitrogen-based inert-gas approach requiring professional validation.
+| Component | Purpose |
+|---|---|
+| ESD prevention measures | Reduce static electricity risks |
+| Flame sensor | Detect flame indications |
+| Smoke sensor | Detect smoke indications |
+| Temperature sensor | Monitor temperature |
+| Microcontroller | Process sensor inputs |
+| Alarm system | Provide an emergency warning |
+| Emergency door mechanism | Support emergency exit release |
+| LED indicators | Guide evacuation routes |
+| Python simulation | Demonstrate system decision logic |
+| 3D model | Visualize the proposed system |
 
-## 🔄 System Workflow
+*The listed components represent the proposed architecture. Final hardware selection and integration require engineering validation.*
 
-**Prevent → Detect → Verify → Isolate → Evacuate → Suppress**
+## 🔄 Working Principle
 
-1. Prevent ignition risks through appropriate ESD precautions.
-2. Monitor the environment using multiple sensors.
-3. Evaluate sensor readings to identify potential fire events.
-4. Activate proposed emergency isolation and alarms when required.
-5. Guide workers towards safe evacuation routes.
-6. Evaluate additional suppression measures through certified safety testing.
+The proposed system follows this workflow:
 
-## 🧰 Proposed Technologies
+**Prevent → Detect → Verify → Isolate → Evacuate → Review Suppression Options**
 
-- Microcontroller-based monitoring
-- Flame detection sensors
-- Smoke sensors
-- Temperature sensors
-- ESD mats and grounding checks
-- Audible alarms and LED indicators
-- Emergency door-release mechanism
-- Voice-alert system
-- Industrial monitoring and event logging
+1. **Prevent:** Apply suitable ESD prevention measures.
+2. **Detect:** Monitor flame, smoke, and temperature indicators.
+3. **Verify:** Evaluate sensor conditions to identify a possible fire event.
+4. **Isolate:** Request or simulate electrical isolation according to a validated safety design.
+5. **Evacuate:** Activate simulated alarms, evacuation indicators, and emergency door-release requests.
+6. **Review Suppression Options:** Evaluate suitable fire-suppression methods through qualified fire-safety professionals.
 
-*Final components and specifications will be determined during system design and validation.*
+## 💻 Software Implementation
+
+A Python program demonstrates the proposed fire-detection decision logic using simulated sensor values.
+
+The simulation displays:
+- Sensor status
+- Fire-alert verification
+- Proposed emergency responses
+- System completion status
+
+**Python source code:**# 🔥 Smart Fire-Safety System for Firecracker Manufacturing Units
+
+## 📌 Project Overview
+
+The **Smart Fire-Safety System for Firecracker Manufacturing Units** is a proposed safety solution designed to improve fire prevention, early detection, and emergency response in firecracker manufacturing environments.
+
+The system combines static electricity prevention, multi-sensor fire detection, microcontroller-based event verification, simulated electrical isolation, emergency alarms, emergency door release, and LED-guided evacuation.
+
+A 3D demonstration illustrates the proposed system workflow and how its safety features are intended to operate.
+
+## 🎯 Problem Statement
+
+Firecracker manufacturing units handle combustible chemicals and materials that may create fire and explosion hazards. Static electricity, excessive temperature, smoke, and accidental ignition can increase the risk of serious accidents.
+
+Conventional safety measures may not provide sufficient early detection and coordinated emergency response. Therefore, a more integrated safety architecture is proposed to support early warning, hazard verification, and safe evacuation.
+
+## 🎯 Objectives
+
+- Reduce static electricity risks through appropriate ESD prevention measures.
+- Detect potential fire conditions using multiple sensors.
+- Verify warning conditions using a microcontroller-based system.
+- Simulate electrical isolation during a verified fire alert.
+- Provide emergency alarms and evacuation guidance.
+- Support emergency door release as part of the proposed response.
+- Demonstrate the system using Python simulation and a 3D model.
+
+## ⚙️ Proposed System Components
+
+| Component | Purpose |
+|---|---|
+| ESD prevention measures | Reduce static electricity risks |
+| Flame sensor | Detect flame indications |
+| Smoke sensor | Detect smoke indications |
+| Temperature sensor | Monitor temperature |
+| Microcontroller | Process sensor inputs |
+| Alarm system | Provide an emergency warning |
+| Emergency door mechanism | Support emergency exit release |
+| LED indicators | Guide evacuation routes |
+| Python simulation | Demonstrate system decision logic |
+| 3D model | Visualize the proposed system |
+
+*The listed components represent the proposed architecture. Final hardware selection and integration require engineering validation.*
+
+## 🔄 Working Principle
+
+The proposed system follows this workflow:
+
+**Prevent → Detect → Verify → Isolate → Evacuate → Review Suppression Options**
+
+1. **Prevent:** Apply suitable ESD prevention measures.
+2. **Detect:** Monitor flame, smoke, and temperature indicators.
+3. **Verify:** Evaluate sensor conditions to identify a possible fire event.
+4. **Isolate:** Request or simulate electrical isolation according to a validated safety design.
+5. **Evacuate:** Activate simulated alarms, evacuation indicators, and emergency door-release requests.
+6. **Review Suppression Options:** Evaluate suitable fire-suppression methods through qualified fire-safety professionals.
+
+## 💻 Software Implementation
+
+A Python program demonstrates the proposed fire-detection decision logic using simulated sensor values.
+
+The simulation displays:
+- Sensor status
+- Fire-alert verification
+- Proposed emergency responses
+- System completion status
+
+**Python source code:**# 🔥 Smart Fire-Safety System for Firecracker Manufacturing Units
+
+## 📌 Project Overview
+
+The **Smart Fire-Safety System for Firecracker Manufacturing Units** is a proposed safety solution designed to improve fire prevention, early detection, and emergency response in firecracker manufacturing environments.
+
+The system combines static electricity prevention, multi-sensor fire detection, microcontroller-based event verification, simulated electrical isolation, emergency alarms, emergency door release, and LED-guided evacuation.
+
+A 3D demonstration illustrates the proposed system workflow and how its safety features are intended to operate.
+
+## 🎯 Problem Statement
+
+Firecracker manufacturing units handle combustible chemicals and materials that may create fire and explosion hazards. Static electricity, excessive temperature, smoke, and accidental ignition can increase the risk of serious accidents.
+
+Conventional safety measures may not provide sufficient early detection and coordinated emergency response. Therefore, a more integrated safety architecture is proposed to support early warning, hazard verification, and safe evacuation.
+
+## 🎯 Objectives
+
+- Reduce static electricity risks through appropriate ESD prevention measures.
+- Detect potential fire conditions using multiple sensors.
+- Verify warning conditions using a microcontroller-based system.
+- Simulate electrical isolation during a verified fire alert.
+- Provide emergency alarms and evacuation guidance.
+- Support emergency door release as part of the proposed response.
+- Demonstrate the system using Python simulation and a 3D model.
+
+## ⚙️ Proposed System Components
+
+| Component | Purpose |
+|---|---|
+| ESD prevention measures | Reduce static electricity risks |
+| Flame sensor | Detect flame indications |
+| Smoke sensor | Detect smoke indications |
+| Temperature sensor | Monitor temperature |
+| Microcontroller | Process sensor inputs |
+| Alarm system | Provide an emergency warning |
+| Emergency door mechanism | Support emergency exit release |
+| LED indicators | Guide evacuation routes |
+| Python simulation | Demonstrate system decision logic |
+| 3D model | Visualize the proposed system |
+
+*The listed components represent the proposed architecture. Final hardware selection and integration require engineering validation.*
+
+## 🔄 Working Principle
+
+The proposed system follows this workflow:
+
+**Prevent → Detect → Verify → Isolate → Evacuate → Review Suppression Options**
+
+1. **Prevent:** Apply suitable ESD prevention measures.
+2. **Detect:** Monitor flame, smoke, and temperature indicators.
+3. **Verify:** Evaluate sensor conditions to identify a possible fire event.
+4. **Isolate:** Request or simulate electrical isolation according to a validated safety design.
+5. **Evacuate:** Activate simulated alarms, evacuation indicators, and emergency door-release requests.
+6. **Review Suppression Options:** Evaluate suitable fire-suppression methods through qualified fire-safety professionals.
+
+## 💻 Software Implementation
+
+A Python program demonstrates the proposed fire-detection decision logic using simulated sensor values.
+
+The simulation displays:
+- Sensor status
+- Fire-alert verification
+- Proposed emergency responses
+- System completion status
+
+**Python source code:** [`code/main_code.py`](code/main_code.py)
+
+**Sample output:** [`code/sample_output.png`](code/sample_output.png)
+
+> Note: The Python program uses predefined demonstration values. It does not read real sensors or control physical safety equipment.
+
+## 🎥 3D Demonstration
+
+The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
+
+**Demo file:** Add the actual uploaded video filename or link here once available.
 
 ## 🏭 Applications
 
 - Firecracker manufacturing units
-- Pyrotechnic material handling areas
-- Combustible-material processing facilities
-- Other high-risk industrial workspaces
+- Industrial fire-risk monitoring concepts
+- Hazardous material handling facilities
+- Safety-system education and prototyping
+- Emergency response system demonstrations
 
-## 🚀 Future Scope
+## 🚀 Future Enhancements
 
-- AI-assisted anomaly detection
-- Redundant sensor networks
-- Industrial IoT monitoring
-- Emergency event logging and analysis
-- Backup communication systems
-- Experimental validation under certified safety procedures
+- Integrate validated physical sensors and a suitable microcontroller.
+- Add real-time sensor monitoring and event logging.
+- Develop a dashboard for displaying hazard conditions.
+- Test sensor verification logic using controlled experiments.
+- Evaluate evacuation alerts and emergency interfaces.
+- Validate the complete system against applicable fire-safety regulations.
 
-## ⚠️ Safety Disclaimer
+## ⚠️ Safety Considerations
 
-This project describes a proposed safety architecture. Its performance has not been established through experimental results unless separately documented.
+This project is a proposed concept and software demonstration. Its real-world performance has not been established by the simulation alone.
 
-Sensor accuracy, detection time, and accident-reduction rates must be established through testing. Any suppression system requires professional engineering assessment, regulatory compliance, and composition-specific validation. Nitrogen discharge can create an oxygen-deficient atmosphere; personnel evacuation and appropriate safety controls are essential.
+Automatic electrical isolation, emergency door release, and fire-suppression equipment must be designed and validated by qualified professionals. Nitrogen-based suppression can cause oxygen deficiency and must not be implemented without a professionally engineered and approved safety system.
 
-This concept is not a substitute for certified industrial fire-protection systems or applicable safety regulations.
+The system must not replace certified fire alarms, approved suppression systems, established evacuation procedures, or regulatory requirements.
 
-## ✅ Conclusion
+## 📌 Project Status
 
-The proposed system aims to combine ignition prevention, multi-sensor fire detection, event verification, emergency isolation, worker evacuation, and validated suppression measures into a unified fire-safety concept for firecracker manufacturing environments.
+**Status:** Proposed design with Python simulation and 3D demonstration.
 
----
+Hardware validation and real-world performance testing remain future work unless separately completed and documented.
 
-**Project Category:** Industrial Safety / Embedded Systems  
-**Project Status:** Proposed Design  
-**Domain:** Electronics and Communication Engineering
+## 👥 Contributors
+
+Add the project team members' names and department details here.
+
+## 📝 Conclusion
+
+The proposed Smart Fire-Safety System integrates prevention, multi-sensor hazard detection, event verification, and coordinated emergency-response concepts. Python simulation and 3D visualization help explain the proposed workflow and provide a foundation for future hardware development and validation.
+
+**Sample output:** [`code/sample_output.png`](code/sample_output.png)
+
+> Note: The Python program uses predefined demonstration values. It does not read real sensors or control physical safety equipment.
+
+## 🎥 3D Demonstration
+
+The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
+
+**Demo file:** Add the actual uploaded video filename or link here once available.
+
+## 🏭 Applications
+
+- Firecracker manufacturing units
+- Industrial fire-risk monitoring concepts
+- Hazardous material handling facilities
+- Safety-system education and prototyping
+- Emergency response system demonstrations
+
+## 🚀 Future Enhancements
+
+- Integrate validated physical sensors and a suitable microcontroller.
+- Add real-time sensor monitoring and event logging.
+- Develop a dashboard for displaying hazard conditions.
+- Test sensor verification logic using controlled experiments.
+- Evaluate evacuation alerts and emergency interfaces.
+- Validate the complete system against applicable fire-safety regulations.
+
+## ⚠️ Safety Considerations
+
+This project is a proposed concept and software demonstration. Its real-world performance has not been established by the simulation alone.
+
+Automatic electrical isolation, emergency door release, and fire-suppression equipment must be designed and validated by qualified professionals. Nitrogen-based suppression can cause oxygen deficiency and must not be implemented without a professionally engineered and approved safety system.
+
+The system must not replace certified fire alarms, approved suppression systems, established evacuation procedures, or regulatory requirements.
+
+## 📌 Project Status
+
+**Status:** Proposed design with Python simulation and 3D demonstration.
+
+Hardware validation and real-world performance testing remain future work unless separately completed and documented.
+
+## 👥 Contributors
+
+Add the project team members' names and department details here.
+
+## 📝 Conclusion
+
+The proposed Smart Fire-Safety System integrates prevention, multi-sensor hazard detection, event verification, and coordinated emergency-response concepts. Python simulation and 3D visualization help explain the proposed workflow and provide a foundation for future hardware development and validation.
+
+**Sample output:** [`code/sample_output.png`](code/sample_output.png)
+
+> Note: The Python program uses predefined demonstration values. It does not read real sensors or control physical safety equipment.
+
+## 🎥 3D Demonstration
+
+The 3D demonstration visualizes the proposed fire-safety system and its intended operation in a firecracker manufacturing environment.
+
+
+
+## 🏭 Applications
+
+- Firecracker manufacturing units
+- Industrial fire-risk monitoring concepts
+- Hazardous material handling facilities
+- Safety-system education and prototyping
+- Emergency response system demonstrations
+
+## 🚀 Future Enhancements
+
+- Integrate validated physical sensors and a suitable microcontroller.
+- Add real-time sensor monitoring and event logging.
+- Develop a dashboard for displaying hazard conditions.
+- Test sensor verification logic using controlled experiments.
+- Evaluate evacuation alerts and emergency interfaces.
+- Validate the complete system against applicable fire-safety regulations.
+
+## ⚠️ Safety Considerations
+
+This project is a proposed concept and software demonstration. Its real-world performance has not been established by the simulation alone.
+
+Automatic electrical isolation, emergency door release, and fire-suppression equipment must be designed and validated by qualified professionals. Nitrogen-based suppression can cause oxygen deficiency and must not be implemented without a professionally engineered and approved safety system.
+
+The system must not replace certified fire alarms, approved suppression systems, established evacuation procedures, or regulatory requirements.
+
+## 📌 Project Status
+
+**Status:** Proposed design with Python simulation and 3D demonstration.
+
+Hardware validation and real-world performance testing remain future work unless separately completed and documented.
+
+## 👥 Contributors
+
+Nithyasri N   -  ECE (25EC150)
+Nandhini P S  -  ECE (25EC136)
+
+## 📝 Conclusion
+
+The proposed Smart Fire-Safety System integrates prevention, multi-sensor hazard detection, event verification, and coordinated emergency-response concepts. Python simulation and 3D visualization help explain the proposed workflow and provide a foundation for future hardware development and validation.
